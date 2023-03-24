@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>formulário</title>
+</head>
+<body>
+    <form>
+        <fieldset class="#">
+            <legend>Usuário</legend>
+            <label for="inome">nome:</label>
+            <input id="inome" name="txtnome" type="text" placeholder="inserir nome">
+            <br>
+            <label for="iemail">e-mail:</label>
+            <input id="iemail" name="imlogin" type="email" placeholder="inserir email">
+            <br>
+            <label for="idata">data de nascimento:</label>
+            <input id="idata" name="imlogin" type="date">
+            <br>
+            <label for="imail">confirme seu email:</label>
+            <input id="imail" name="emcmail" type="email" placeholder="confirmar email">
+            <br>
+            <label for="isex">sexo:</label>
+            <select name="slsexo" id="isexo">
+                <option value="m">masculino</option>
+                <option value="f">feminino</option>
+                <option value="a">agenero</option>
+            </select>
+            <br>
+            <label>tipo:</label>
+            <input type="radio" name="rtipo" id="iusuario" value="U">
+            <label for="iusuario">usuário</label>
+            <input type="radio" name="rtipo" id="iadmin" value="A">
+            <label for="iadmin">admin</label>
+            <br>
+            <label for="ifale">fale sobre você:</label>
+            <br>
+            <textarea name="txtafale" id="ifale" cols="50" rows="20"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+            <br>
+            <input type="checkbox" id="ilogado" name="chlogado">
+            <label for="ilogado" class="logado">permanecer logado</label>
+            
+
+ 
+        </fieldset>
+
+    </form>
+</body>
+</html>
